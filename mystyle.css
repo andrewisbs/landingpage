@@ -1,14 +1,23 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     font-weight:bolder;
-    border: 5px;
-    padding: 20px;
+ 
     display: flex;
+    background-color: lightblue;
+    border: 5px solid black;
+    
 }
 ul {
     list-style-type: none;
 }
 
 .landing {
-    flex-flow:column
+    flex-flow:column;
+    flex: 1;
+
+}
+
+.header > h1, .header, .header > ul>li {
+    background: blue;
+    text-weight: bold;
 }

@@ -1,0 +1,14 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    border: 5px;
+    padding: 20px;
+    display: flex;
+}
+ul {
+    list-style-type: none;
+}
+
+.landing {
+    flex-flow:column
+}

@@ -96,6 +96,12 @@ ul {
     background: darkgreen;
     color: white;
     border-radius: 10px;
-    margin: 20px 10 px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px brgba(0,  0, 0, 0.6);
+    padding: 15px 20px;
+}
 
+.footer .container {
+    display: flex;
+    justify-content: center;
 }
